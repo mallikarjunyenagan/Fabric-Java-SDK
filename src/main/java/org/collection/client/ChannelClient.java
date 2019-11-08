@@ -31,7 +31,7 @@ import org.hyperledger.fabric.sdk.exception.ProposalException;
 /**
  * Wrapper class for a channel client.
  * 
- * @author Vivek Gani
+ *     
  *
  */
 

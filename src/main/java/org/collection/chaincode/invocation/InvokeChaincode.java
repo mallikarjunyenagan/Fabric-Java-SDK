@@ -33,7 +33,7 @@ import com.google.gson.JsonObject;
 
 /**
  * 
- * @author Vivek Gani
+ *     
  *
  */
 public class InvokeChaincode {

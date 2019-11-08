@@ -10,7 +10,7 @@ import org.hyperledger.fabric.sdk.User;
 /**
  * Implementation class for User
  * 
- * @author Vivek Gani
+ *     
  *
  */
 

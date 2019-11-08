@@ -25,7 +25,7 @@ import org.hyperledger.fabric.sdk.TransactionProposalRequest;
 
 /**
  * 
- * @author Vivek Gani
+ *     
  *
  */
 public class AddIpfsHash {

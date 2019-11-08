@@ -26,7 +26,7 @@ import org.hyperledger.fabric.sdk.security.CryptoSuite;
 
 /**
  * 
- * @author Vivek Gani
+ *     
  *
  */
 

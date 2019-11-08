@@ -19,7 +19,7 @@ import org.hyperledger.fabric_ca.sdk.RegistrationRequest;
 /**
  * Wrapper class for HFCAClient.
  * 
- * @author Vivek Gani
+ *     
  *
  */
 

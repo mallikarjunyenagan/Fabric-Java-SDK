@@ -53,7 +53,7 @@ Body: {
 	"make":"maruti",
 	"model":"eight",
 	"colour":"black",
-	"owner":"vivek"
+	"owner":"  "
       }
 
 e) To Query chaincode

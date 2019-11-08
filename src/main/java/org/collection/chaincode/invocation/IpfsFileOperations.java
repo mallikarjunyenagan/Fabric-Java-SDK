@@ -15,7 +15,7 @@ import io.ipfs.multihash.Multihash;
 
 /**
  * 
- * @author Vivek Gani
+ *     
  *
  */
 public class IpfsFileOperations {

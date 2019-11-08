@@ -23,7 +23,7 @@ import org.hyperledger.fabric.sdk.security.CryptoSuite;
 /**
  * Wrapper class for HFClient.
  * 
- * @author Vivek Gani
+ *     
  *
  */
 

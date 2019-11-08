@@ -30,7 +30,7 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 
 /**
  * 
- * @author Vivek Gani and Akhil
+ * @author
  *
  */
 
@@ -190,10 +190,10 @@ public class BankService {
 				Status status = res.getStatus();
 				this.transactionId = res.getTransactionID();
 				Logger.getLogger(BankService.class.getName()).log(Level.INFO,
-						"Updated Bank Details on  " + Config.CHAINCODE_1_NAME + ". Status - " + status);
+						"Updated object Details on  " + Config.CHAINCODE_1_NAME + ". Status - " + status);
 
 			}
-			return "Updated Bank Details Successfully";
+			return "Updated object Details Successfully";
 		} catch (Exception e) {
 			e.printStackTrace();
 			return "Error occured, Please try again";

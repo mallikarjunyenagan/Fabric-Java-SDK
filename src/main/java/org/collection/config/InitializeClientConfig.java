@@ -17,7 +17,7 @@ import org.hyperledger.fabric.sdk.exception.TransactionException;
 
 /**
  * 
- * @author Vivek Gani
+ *     
  *
  */
 

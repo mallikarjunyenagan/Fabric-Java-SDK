@@ -17,7 +17,7 @@ import org.hyperledger.fabric.sdk.exception.ProposalException;
 
 /**
  * 
- * @author Vivek Gani
+ *     
  *
  */
 
