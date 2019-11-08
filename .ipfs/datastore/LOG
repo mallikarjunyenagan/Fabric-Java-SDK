@@ -1,0 +1,30 @@
+=============== Sep 4, 2019 (IST) ===============
+11:56:08.442099 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:56:08.442341 db@open opening
+11:56:08.442951 version@stat F·[] S·0B[] Sc·[]
+11:56:08.484178 db@janitor F·2 G·0
+11:56:08.484294 db@open done T·41.929299ms
+11:56:09.933582 db@close closing
+11:56:09.933742 db@close done T·156.017µs
+=============== Sep 4, 2019 (IST) ===============
+11:56:09.935271 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:56:09.935556 version@stat F·[] S·0B[] Sc·[]
+11:56:09.935581 db@open opening
+11:56:09.935704 journal@recovery F·1
+11:56:09.936413 journal@recovery recovering @1
+11:56:09.975532 memdb@flush created L0@2 N·2 S·211B "/lo..oot,v2":"/lo..ins,v1"
+11:56:09.979603 version@stat F·[1] S·211B[211B] Sc·[0.25]
+11:56:09.980281 db@janitor F·3 G·0
+11:56:09.980338 db@open done T·44.738348ms
+11:56:10.278763 db@close closing
+11:56:10.279022 db@close done T·238.522µs
+=============== Sep 4, 2019 (IST) ===============
+11:56:10.338795 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:56:10.338927 version@stat F·[1] S·211B[211B] Sc·[0.25]
+11:56:10.338938 db@open opening
+11:56:10.338978 journal@recovery F·1
+11:56:10.339316 journal@recovery recovering @3
+11:56:10.387596 memdb@flush created L0@5 N·5 S·1KiB "/F5..YSD,v7":"/lo..ins,v4"
+11:56:10.389132 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+11:56:10.390585 db@janitor F·4 G·0
+11:56:10.391015 db@open done T·51.88448ms
