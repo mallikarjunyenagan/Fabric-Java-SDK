@@ -87,8 +87,6 @@ public class Util {
 
 	/**
 	 * Create enrollment from key and certificate files.
-	 *
-	 * @param folderPath
 	 * @param keyFileName
 	 * @param certFileName
 	 * @return

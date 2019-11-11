@@ -202,15 +202,16 @@
         <artifactId>fabric-chaincode-shim</artifactId>
         <version>1.4.1</version>
         </dependency>
-
-<!--		//for accepting xml and json formats-->
+		<!--		//for accepting xml and json formats-->
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 	</dependencies>
 
+	<packaging>war</packaging>
 	<build>
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

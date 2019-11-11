@@ -6,10 +6,13 @@ set -e
 #Start from here
 startTime=$SECONDS
 echo -e "\nStopping the previous network (if any)"
-docker-compose -f docker-compose.yml -f docker-compose-couch.yml down
-./teardown.sh
-# If need to re-generate the artifacts, uncomment the following lines and run
+BASEDIR=$(dirname $0)
+echo "Script location: ${BASEDIR}"
 
+docker-compose -f $BASEDIR/docker-compose.yml -f $BASEDIR/docker-compose-couch.yml down
+$BASEDIR/./teardown.sh
+# If need to re-generate the artifacts, uncomment the following lines and run
+cd $BASEDIR/
   if [ ! -d "crypto-config" ]; then
   cryptogen generate --config=./crypto-config.yaml
   mkdir config
@@ -28,8 +31,9 @@ fi
   export BYFN_CA2_PRIVATE_KEY=$(cd ../network_resources/crypto-config/peerOrganizations/org2.example.com/ca && ls *_sk)
   export BYFN_CA3_PRIVATE_KEY=$(cd ../network_resources/crypto-config/peerOrganizations/org3.example.com/ca && ls *_sk)
 # Create and Start the Docker containers for the network
+cd -
 echo -e "\nSetting up the Hyperledger Fabric 1.4.1 network"
-docker-compose -f docker-compose.yml -f docker-compose-couch.yml up -d
+docker-compose -f $BASEDIR/docker-compose.yml -f $BASEDIR/docker-compose-couch.yml up -d
 timeElasped=$((SECONDS-startTime))
 echo -e "\n Total Time Elapsed : $timeElasped seconds"
 echo -e "\n Network setup completed!!\n"
