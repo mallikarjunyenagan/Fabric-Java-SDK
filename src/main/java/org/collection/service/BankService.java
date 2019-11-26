@@ -1,4 +1,3 @@
-
 package org.collection.service;
 
 import java.lang.reflect.InvocationTargetException;
@@ -79,6 +78,7 @@ public class BankService {
 						"posted Data " + Config.CHAINCODE_1_NAME + ". Status - " + status);
 
 			}
+			
 			return "Inserted Details Successfully";
 		} catch (Exception e) {
 			e.printStackTrace();
