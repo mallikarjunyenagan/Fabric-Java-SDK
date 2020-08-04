@@ -72,7 +72,3 @@ Url: http://localhost:9090/api/downloadFile?hash=QmbQiRBGafSkLgd4XHd9p2QvUJb4S2P
 References:
 
 https://github.com/IBM/blockchain-application-using-fabric-java-sdk
-
-Video Tutorial :
-
-https://www.youtube.com/watch?v=vCTabgkvfS0&feature=youtu.be
