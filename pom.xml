@@ -21,7 +21,7 @@
 	<properties>
 		<grpc.version>1.23.0</grpc.version><!-- CURRENT_GRPC_VERSION -->
 		<bouncycastle.version>1.55</bouncycastle.version>
-		<httpclient.version>4.5.2</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
 		<skipITs>true</skipITs>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
